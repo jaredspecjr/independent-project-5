@@ -21,8 +21,12 @@ class Calculator{
     return this.age;
   }
   ageOnMercury(){
-    debugger;
     let result = Math.floor(this.age / .24);
+    this.newAge = result;
+    return this.newAge;
+  }
+  ageOnVenus(){
+    let result = Math.floor(this.age / .62);
     this.newAge = result;
     return this.newAge;
   }

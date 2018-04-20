@@ -19,4 +19,5 @@ describe('Calculator', function(){
   currentAge.ageOnMercury();
   expect(currentAge.newAge).toEqual(108);
   });
+  
 });
