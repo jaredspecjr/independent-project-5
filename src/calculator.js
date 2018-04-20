@@ -10,7 +10,11 @@ class Calculator{
   }
   datesToAge(){
     debugger;
-
+    let birthDate = this.birthDate;
+    let currentDate = new Date();
+    let currentResult = currentDate.getFullYear();//get the year of our current date
+    let ageResult = currentResult - birthDate;
+    return ageResult;
     // let birthDate = this.date;
     // let currentDate = new Date();
     // let currentResult = currentDate.getFullYear();

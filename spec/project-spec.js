@@ -7,6 +7,11 @@ describe('Calculator', function(){
     expect(currentAge.ageToSeconds()).toEqual(631152000);
   });
   it('should find the difference of the current date minus the user inputted date', function(){
+  let currentAge = new Calculator(age, birthDate);
+  let birthDate = new Date(1991, 07, 12);
+  this.birthDate = birthDate.getFullYear();
+  currentAge.datesToAge();
+
 
 
 
