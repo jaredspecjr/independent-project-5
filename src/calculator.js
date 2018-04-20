@@ -7,11 +7,13 @@ class Calculator{
     let result = this.age * 31557600;
     return result;
   }
+  debugger;
   datesToAge(){
-    let currentDate = new Date();
     let birthDate = this.date;
+    let currentDate = new Date();
     let currentResult = currentDate.getFullYear();
-    let result = currentResult - birthDate;
+    let age = currentResult - birthDate;
+    return age;
   }
 }
 
