@@ -46,9 +46,9 @@ class Calculator{
   ageCheck(){
     debugger;
     let result = this.lifeExpectancy - this.age;
-    if(result < 90){
+    if(this.age < 90){
       this.yearsLeft = result;
-    } else if(result > 90){
+    } else if(this.age > 90){
       this.exceededExpectancy = result;
     }
   }

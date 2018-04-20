@@ -46,8 +46,8 @@ describe('Calculator', function(){
   expect(currentAge.yearsLeft).toEqual(64);
   });
   it('should determine if you are over the life expectancy', function(){
-  let currentAge = new Calculator(95);
-  currentAge.ageCheck();
-  expect(currentAge.exceededExpectancy).toEqual(-5);
+  let person = new Calculator(95);
+  person.ageCheck();
+  expect(person.exceededExpectancy).toEqual(-5);
   });
 });
