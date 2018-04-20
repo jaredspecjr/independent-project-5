@@ -35,6 +35,11 @@ class Calculator{
     this.newAge = result;
     return this.newAge;
   }
+  ageOnJupiter(){
+    let result = Math.floor(this.age / 11.86);
+    this.newAge = result;
+    return this.newAge;
+  }
 }
 
 

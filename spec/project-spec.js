@@ -33,4 +33,11 @@ describe('Calculator', function(){
   currentAge.ageOnMars();
   expect(currentAge.newAge).toEqual(13);
   });
+  it('should calculate your age to what it would be on Jupiter', function(){
+  let currentAge = new Calculator();
+  currentAge.birthDate = new Date(694252944000);
+  currentAge.datesToAge();
+  currentAge.ageOnJupiter();
+  expect(currentAge.newAge).toEqual(2);
+  });
 });
