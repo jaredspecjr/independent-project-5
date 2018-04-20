@@ -42,7 +42,7 @@ class Calculator{
     return this.newAge;
   }
   ageCheck(){
-    let result = this.age - this.lifeExpectancy;
+    let result = this.lifeExpectancy - this.age;
     return result;
   }
 }
