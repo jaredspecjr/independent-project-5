@@ -14,9 +14,18 @@ current date 04/20/2018(1524207600) - 08/12/1991(681980400)
 return age of human in Mercury years.( mercury year is .24 earth years)
 input:08/12/1991
 output: 108
+
 return age of human in Venus years.(venus year is .61 earth years)
+input:08/12/1991
+output:42
+
 return age of human in Mars years.(mars years is 1.88 earth years)
+input:08/12/1991
+output:14
+
 return age of human in Jupiter years.(a jupiter year is 11.86)
+input:08/12/1991
+output: 2
 Determine how many years a user has left to live on each planet… (yikes!) To do this, the
 application will have to calculate the user’s life expectancy. You can determine average life
 expectancy as you see fit. A simple way to do this would be to have the user input the average
