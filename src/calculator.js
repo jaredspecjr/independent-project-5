@@ -17,11 +17,12 @@ class Calculator{
     let currentResult = parseInt(currentDate.getFullYear());
     let birthResult = parseInt(birthDate.getFullYear());
     let ageResult = currentResult - birthResult;
-    return ageResult;
-    // let birthDate = this.date;
-    // let currentDate = new Date();
-    // let currentResult = currentDate.getFullYear();
-    // this.age = currentResult - birthDate;
+    this.age = ageResult;
+    return this.age;
+  }
+  ageOnMercury(){
+    let result = this.age / .24;
+    return result;
   }
 }
 
