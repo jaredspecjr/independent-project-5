@@ -12,12 +12,18 @@ describe('Calculator', function(){
   currentAge.datesToAge();
   expect(currentAge.age).toEqual(26);
   });
-  it('should calculate your age to what it would be on mercury', function(){
+  it('should calculate your age to what it would be on Mercury', function(){
   let currentAge = new Calculator();
   currentAge.birthDate = new Date(694252944000);
   currentAge.datesToAge();
   currentAge.ageOnMercury();
   expect(currentAge.newAge).toEqual(108);
   });
-  
+  it('should calculate your age to what it would be on Venus', function(){
+  let currentAge = new Calculator();
+  currentAge.birthDate = new Date(694252944000);
+  currentAge.datesToAge();
+  currentAge.ageOnVenus();
+  expect(currentAge.newAge).toEqual(41);
+  });
 });
