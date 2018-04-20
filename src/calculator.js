@@ -5,6 +5,7 @@ class Calculator{
     this.birthDate;
     this.currentDate;
     this.newAge;
+    this.lifeExpectancy = 90;
 
   }
   ageToSeconds(){
@@ -40,7 +41,10 @@ class Calculator{
     this.newAge = result;
     return this.newAge;
   }
+  ageCheck(){
+    let result = this.age - this.lifeExpectancy;
+    return result;
+  }
 }
-
 
 export { Calculator };

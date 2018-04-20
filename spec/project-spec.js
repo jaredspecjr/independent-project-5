@@ -40,4 +40,9 @@ describe('Calculator', function(){
   currentAge.ageOnJupiter();
   expect(currentAge.newAge).toEqual(2);
   });
+  it('should determine how long you have left to live', function(){
+  let currentAge = new Calculator(26);
+  currentAge.ageCheck();
+  expect(currentAge.ageCheck()).toEqual(64);
+  });
 });
