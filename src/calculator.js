@@ -44,6 +44,7 @@ class Calculator{
     return this.newAge;
   }
   ageCheck(){
+    debugger;
     let result = this.lifeExpectancy - this.age;
     if(result < 90){
       this.yearsLeft = result;
