@@ -1,8 +1,10 @@
 
 class Calculator{
-  constructor(age, date){
+  constructor(age, birthDate){
     this.age = age;
-    this.birthDate = birthDate;
+    this.birthDate;
+    this.currentDate;
+
   }
   ageToSeconds(){
     let result = this.age * 31557600;
@@ -12,8 +14,9 @@ class Calculator{
     debugger;
     let birthDate = this.birthDate;
     let currentDate = new Date();
-    let currentResult = currentDate.getFullYear();//get the year of our current date
-    let ageResult = currentResult - birthDate;
+    let currentResult = parseInt(currentDate.getFullYear());
+    let birthResult = parseInt(birthDate.getFullYear());
+    let ageResult = currentResult - birthResult;
     return ageResult;
     // let birthDate = this.date;
     // let currentDate = new Date();
