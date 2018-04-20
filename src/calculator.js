@@ -6,6 +6,8 @@ class Calculator{
     this.currentDate;
     this.newAge;
     this.lifeExpectancy = 90;
+    this.exceededExpectancy = 0;
+    this.yearsLeft = 0;
 
   }
   ageToSeconds(){
@@ -43,7 +45,11 @@ class Calculator{
   }
   ageCheck(){
     let result = this.lifeExpectancy - this.age;
-    return result;
+    if(result < 90){
+      this.yearsLeft = result;
+    } else if(result > 90){
+      this.exceededExpectancy = result;
+    }
   }
 }
 

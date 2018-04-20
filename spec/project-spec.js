@@ -43,6 +43,6 @@ describe('Calculator', function(){
   it('should determine how long you have left to live', function(){
   let currentAge = new Calculator(26);
   currentAge.ageCheck();
-  expect(currentAge.ageCheck()).toEqual(64);
+  expect(currentAge.yearsLeft).toEqual(64);
   });
 });
