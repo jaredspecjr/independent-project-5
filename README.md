@@ -1,3 +1,33 @@
+# _Super Galactic Calculator_
+
+#### _website that converts your age to a new age, 4/20/2018_
+
+#### By _**Jared Luz**_
+
+## Description
+
+_Website that converts your age to a new age depending on what planet you choose._
+
+## Setup/Installation Requirements
+
+* _Clone the indpendent-project-five repository_
+* _Run npm install in your terminal_
+* _Run npm start_
+
+_this repo should have all correct webpack dependencies. make sure you run npm install in the root folder_
+
+## Known Bugs
+
+_There are no known bugs at this time._
+
+## Support and contact details
+
+_If you have any issues please report them to Jared Lutz at jaredspecjr@gmail.com. If you yourself find a solution to a problem you find with my code, don't hesitate to add or experiment!._
+
+## Technologies Used
+
+_jasmine, karma, webpack, node, atom, github, css, jquery, bootstrap and html were used to accomplish this._
+
 ##Specs
 Take a persons age in years and convert it into seconds
 input: 18
@@ -44,3 +74,13 @@ information from the user (e.g. lifestyle, country of residence, activity level,
 determine their life expectancy.
 If a user has already surpassed the average life expectancy, return the number of years they
 have lived past the life expectancy.
+
+## Gh-Pages
+
+_ ??? //could not figure out how to get gh-pages to work with webpack in time..._
+
+### License
+
+*MIT License.*
+
+Copyright (c) 2018 **_Jared Lutz_**
