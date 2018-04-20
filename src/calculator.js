@@ -4,6 +4,7 @@ class Calculator{
     this.age = age;
     this.birthDate;
     this.currentDate;
+    this.newAge;
 
   }
   ageToSeconds(){
@@ -11,7 +12,6 @@ class Calculator{
     return result;
   }
   datesToAge(){
-    debugger;
     let birthDate = this.birthDate;
     let currentDate = new Date();
     let currentResult = parseInt(currentDate.getFullYear());
@@ -21,8 +21,10 @@ class Calculator{
     return this.age;
   }
   ageOnMercury(){
-    let result = this.age / .24;
-    return result;
+    debugger;
+    let result = Math.floor(this.age / .24);
+    this.newAge = result;
+    return this.newAge;
   }
 }
 
