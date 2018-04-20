@@ -26,4 +26,11 @@ describe('Calculator', function(){
   currentAge.ageOnVenus();
   expect(currentAge.newAge).toEqual(41);
   });
+  it('should calculate your age to what it would be on Mars', function(){
+  let currentAge = new Calculator();
+  currentAge.birthDate = new Date(694252944000);
+  currentAge.datesToAge();
+  currentAge.ageOnMars();
+  expect(currentAge.newAge).toEqual(13);
+  });
 });

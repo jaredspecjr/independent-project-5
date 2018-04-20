@@ -30,6 +30,11 @@ class Calculator{
     this.newAge = result;
     return this.newAge;
   }
+  ageOnMars(){
+    let result = Math.floor(this.age / 1.88);
+    this.newAge = result;
+    return this.newAge;
+  }
 }
 
 
